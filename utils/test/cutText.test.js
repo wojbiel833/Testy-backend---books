@@ -36,5 +36,5 @@ describe("CutText", () => {
     expect(cutText("Lorem Ipsum dolor sit amet", 17)).to.equal(
       "Lorem Ipsum dolor..."
     );
-  }); //Funkcja przejdzie ten test pozytywnie.
+  }); //Funkcja przejdzie ten test pozytywnie... - a jednak nie przechodza
 });
