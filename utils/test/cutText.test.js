@@ -1,5 +1,5 @@
-const { expect } = require("chai");
-// const { expect } = require("chai").expect;
+// const { expect } = require("chai");
+const expect = require("chai").expect;
 const cutText = require("../cutText.js");
 
 describe("CutText", () => {
