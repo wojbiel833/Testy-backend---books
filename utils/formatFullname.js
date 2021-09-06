@@ -4,7 +4,6 @@ module.exports = (fullName) => {
   if (typeof fullName !== "string") return "Error";
 
   const namesArr = fullName.toLowerCase().split(" ");
-  console.log(namesArr);
   if (namesArr[2] != undefined) return "Error";
   const [firstName, lastName] = namesArr;
 
